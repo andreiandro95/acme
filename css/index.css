@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-color-background{
+    background-color: rgb(53, 66, 74);
+}
+.world-title{
+    color: rgb(232, 73, 29);
+}
+.color-line{
+    width: 100%;
+    height: 3px;
+    background-color: rgb(232, 73, 29);
+}
+.navigation-links{
+    font-size: 1.2rem;
+}
+.link-active{
+    color: rgb(232, 73, 29);
+    font-weight: bold;
+}
+.link-active:hover{
+    color: rgb(173, 173, 173)
+}
+.first-link{
+    color: white;
+}
+.seconds-links{
+    color: white;
+}
+.seconds-links:hover{
+    font-weight: bold;
+    color: rgb(173, 173, 173)
+}
+.text-image{
+    background: url("../img/showcase.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text-image p{
+    font-size: 1.3rem;
+}
+.newsletter{
+    background-color: rgb(53, 66, 74);
+}
+
+.button-subscribe{
+    background-color: rgb(232, 73, 29);
+    color: white;
+    border: 0;
+    padding: 1.5%;
+}
+.html-logo{
+    color: rgb(232, 73, 29);
+}
+.description-logo{
+    font-size: 0.9rem;
+}
+.logo-brush{
+    width: 7vw;
+}
+.footer-first-page{
+    background-color: rgb(232, 73, 29);
+}
+.jumbotron{
+    margin-bottom: 5px;
+}
